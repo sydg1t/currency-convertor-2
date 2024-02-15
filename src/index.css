@@ -1,4 +1,5 @@
 body {
+  color: #ece5d3;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,8 +13,43 @@ code {
     monospace;
 }
 .container {
-  height: 100vh;
+  height: 85vh;
+
 }
 #currency-convertor {
   margin-top: 20% !important;
+  background-color: #1f1f1e;
+}
+@media only screen and (min-width: 992px){
+  #comparison-chart {
+  overflow-x: auto;
+  max-height: 75vh;
+}
+#comparison-chart {
+  background-color: #1f1f1e;
+}
+}
+a {
+  text-decoration: none;
+  color: #ece5d3;
+  margin: 0 5em;
+}
+span {
+  position:relative;
+  right: 0px;
+}
+#footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: #1f1f1e;
+}
+html {
+  background-color: #2a363b;
+  
+}
+#root {
+  background-color: #030300;
+}
+nav {
+  background-color: #1f1f1e;
 }
