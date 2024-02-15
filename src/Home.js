@@ -142,9 +142,7 @@ class CurrencyConvertor extends React.Component {
                 <label>Qty</label>
                 <input className='w-100' type='number' value={qty1} onChange={(event) => this.handleQuantityChange(event)} />
               </div>
-              <div className='col-12 col-lg-4'>
-                <button className='btn bg-white' onClick={(event) => this.switchCurrencies(event)} >Swap</button>
-              </div>
+        
             </div>
             <div className='row my-5'>
               <div className='col-12 col-lg-6'>
