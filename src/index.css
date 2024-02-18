@@ -24,9 +24,17 @@ code {
   #comparison-chart {
   overflow-x: auto;
   max-height: 75vh;
+  
+}
+@media only screen and (max-width: 992px){
+  row.w-100 {
+    margin-bottom: 500px !important;
+  }
+  
 }
 #comparison-chart {
   background-color: #1f1f1e;
+  
 }
 }
 a {
