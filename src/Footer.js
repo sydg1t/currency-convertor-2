@@ -5,12 +5,12 @@ class Footer extends React.Component {
     return (
       
         
-          <div id='footer' className='col-12 justify-content-center py-3'>
+          <div id='footer' className='col-12 d-flex justify-content-sm-around justify-content-lg-evenly py-3'>
             <a href='https://chipper-lily-87dd91.netlify.app/' target='_blank'>Portfolio</a>
-            <span>
+            
             <a href='https://github.com/sydg1t' target='_blank'>Github</a>
             <a href='https://www.linkedin.com/in/obsydion-slater-07615525b/' target='_blank'>LinkedIn</a>
-            </span>
+            
           </div>
         
       

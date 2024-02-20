@@ -9,9 +9,9 @@ import Footer from './Footer';
 function App() {
   return (
     <Router>
-      <nav className='navbar navbar-expand-lg '>
-        <h2 className='ms-5'><Link to="/">Currency Convertor</Link></h2>
-        <h4><Link to="/chart/">Chart</Link></h4>
+      <nav className='navbar navbar-expand-lg justify-content-sm-between justify-content-lg-start'>
+        <h2 className='mx-5 py-1'><Link to="/">Currency Convertor</Link></h2>
+        <h4 className='mx-5'><Link to="/chart/">Chart</Link></h4>
       </nav>
       <Route path="/" exact component={Home} />
       <Route path="/chart/" component={ChartPage} />

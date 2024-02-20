@@ -40,7 +40,10 @@ code {
 a {
   text-decoration: none;
   color: #ece5d3;
-  margin: 0 5em;
+}
+#footer a {
+  text-decoration: underline;
+  
 }
 span {
   position:relative;
